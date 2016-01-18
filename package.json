@@ -1,0 +1,28 @@
+{
+  "name": "o-storage-forkdb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel --presets es2015 -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackers4peace/o-storage-forkdb.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/hackers4peace/o-storage-forkdb/issues"
+  },
+  "homepage": "https://github.com/hackers4peace/o-storage-forkdb#readme",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13"
+  },
+  "dependencies": {
+    "forkdb-promise": "0.0.1"
+  }
+}
